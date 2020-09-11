@@ -7,4 +7,4 @@ def countdown(time)
     time -= 1
     break if time <= 0
     puts "HAPPY NEW YEAR!"
-end 
+end
