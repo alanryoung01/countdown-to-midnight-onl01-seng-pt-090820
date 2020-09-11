@@ -1,11 +1,18 @@
 #write your code here
 
 def countdown(time)
-  time = 10
   while time > 0
     puts "#{time} SECOND(S)!"
     time -= 1
-    break if time <= 0
-    puts "HAPPY NEW YEAR!"
+  end
+  return "HAPPY NEW YEAR!"
 end
+
+def countdown_with_sleep(time)
+  while time > 0
+    puts "#{seconds} SECOND(S)!"
+    seconds -= 1
+    sleep(1)
+  end
+  return "HAPPY NEW YEAR!"
 end
