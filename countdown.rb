@@ -1,6 +1,6 @@
 #write your code here
 
-def countdown(10)
+def countdown(countdown)
   while countdown != 0
     puts countdown + " SECONDS!"
   when countdown = 0
